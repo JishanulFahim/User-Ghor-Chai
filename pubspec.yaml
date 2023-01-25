@@ -1,0 +1,87 @@
+name: demo
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.13
+  flutter_screenutil: ^5.5.4
+  google_fonts: ^3.0.1
+
+  iconly: ^1.0.1
+  dotted_border: ^2.0.0+2
+  image_picker: ^0.8.5
+  provider:
+  flutter_iconly: ^1.0.2
+  card_swiper: ^2.0.3
+  fancy_shimmer_image: ^2.0.2
+  flutter_staggered_grid_view: ^0.6.1
+  badges: ^2.0.2
+  flutter_spinkit: ^5.1.0
+  fluttertoast: ^8.0.9
+  uuid: ^3.0.6
+
+  #todo Firebase
+  firebase_core: ^2.3.0
+  firebase_auth: ^4.1.5
+  google_sign_in: ^5.3.0
+  cloud_firestore: ^4.1.0
+  firebase_storage: ^11.0.6
+  internet_connection_checker:
+  connectivity_plus: ^2.3.5
+  url_launcher: ^6.0.20
+
+  webview_flutter: ^3.0.2
+
+  http: ^0.13.4
+  flutter_svg: 
+  flutter_inappwebview: 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  flutter_app_name:
+  #flutter pub run flutter_app_name
+  flutter_launcher_icons: ^0.10.0
+  #flutter pub run flutter_launcher_icons:main
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/AppIcon/luncher_icon.png"
+
+flutter_app_name:
+  name: "Ghor Chai"
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/cat/
+    - assets/icons/bottomIcons/    #rabbi 
+    - assets/icons/others/      #rabbi 
+    - assets/images/offres/
+    - assets/AppIcon/          
+    - assets/AppIcon/Login/          
+    - assets/AppIcon/Dashboard/          
+    - assets/AppIcon/Search/           
+    - assets/AppIcon/Search/Categories/  
+    - assets/AppIcon/HomePage/
+    - assets/AppIcon/MyAds/
